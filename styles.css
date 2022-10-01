@@ -87,7 +87,7 @@ footer{
 
 
 /*footer nav bar spacing*/
-.footer-nav ul{
+.nav-footer ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -95,13 +95,13 @@ footer{
 }
 
 /*footer nav list items spacing*/
-.footer-nav ul li{
+.nav-footer ul li{
   padding-top: 1rem;
   padding-bottom:1rem;
 }
 
 /*footer nav list link fonts color and spacing*/
-.footer-nav ul a{
+.nav-footer ul a{
   text-decoration: none;
   
   color: white;
@@ -111,8 +111,8 @@ footer{
   font-size: 15;
 }
 
-/*hovers title, header, nav footer*/
-.footer-nav ul a:hover{
+/*hovers title, header, social iconds, nav footer*/
+.nav-footer ul a:hover{
   background: rgba(122, 107, 107, 0.2);
   border-radius: 6.4px;
 }
@@ -124,10 +124,9 @@ footer{
 
 .title:hover{
   color: grey;
-
 }
 
-/*social media spacing*/
+/*social media icons spacing*/
 footer div a{
   padding: 10px;
   float: right;
@@ -136,7 +135,5 @@ footer div a{
 /*copyright css*/
 footer p{
   color: white;
-
   padding-left: 20px;
 }
-
