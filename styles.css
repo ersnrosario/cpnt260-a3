@@ -1,0 +1,142 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+main{
+  flex:auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 100vh;
+
+  background-color: rgba(4, 1, 1, 0.758);
+  background-size: cover;
+  background-position: center;
+}
+
+/*header*/
+header {
+  background-color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+
+/*404 spacing*/
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  max-width: 40ch;
+
+  color: white;
+  font-size: clamp(40px, 1vw, 128px);
+}
+
+/*header navigation bar*/
+.nav-bar ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/*title font, color and size*/
+.title{
+  display: flex;
+  margin: 0;
+  max-width: 40ch;
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+/*spacing and colors for header nav bar links*/
+.nav-bar ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  
+  max-width: 40ch;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/*footer background color*/
+footer{
+  background-color: black;
+}
+
+
+/*footer nav bar spacing*/
+.footer-nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*footer nav list items spacing*/
+.footer-nav ul li{
+  padding-top: 1rem;
+  padding-bottom:1rem;
+}
+
+/*footer nav list link fonts color and spacing*/
+.footer-nav ul a{
+  text-decoration: none;
+  
+  color: white;
+
+  max-width: 40ch;
+  padding: 20px;
+  font-size: 15;
+}
+
+/*hovers title, header, nav footer*/
+.footer-nav ul a:hover{
+  background: rgba(122, 107, 107, 0.2);
+  border-radius: 6.4px;
+}
+
+.nav-bar ul a:hover{
+  background: rgba(122, 107, 107, 0.2);
+  border-radius: 6.4px;
+}
+
+.title:hover{
+  color: grey;
+
+}
+
+/*social media spacing*/
+footer div a{
+  padding: 10px;
+  float: right;
+}
+
+/*copyright css*/
+footer p{
+  color: white;
+
+  padding-left: 20px;
+}
+
